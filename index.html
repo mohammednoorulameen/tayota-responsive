@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>tayota</title>
+  </head>
+  <body>
+    <!-- -----------header-------------- -->
+
+    <header>
+      <nav
+        class="navbar navbar-default fixed-top navbar-expand-lg navbar-light bg-light"
+      >
+        <div class="container-fluid">
+          <button
+            style="border: none"
+            class="navbar-toggler text-danger"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon "></span> -->
+            <i class="bi bi-list "></i>
+          </button>
+          <a class="p-2 ps-5 navbar-brand" href="#">
+            <img src="assets/toyota-logo-main-136x24.svg" alt="" />
+          </a>
+
+          <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-bold">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <small>PRODUCTS</small>
+                </a>
+                <ul
+                  class="dropdown-menu dropdown-menu-dark"
+                  aria-labelledby="navbarDropdown"
+                >
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item fw-bold">
+                <a class="nav-link active" aria-current="page" href="#"
+                  ><small>VIRTUAL SHOWROOM</small></a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <small>SERVICE</small>
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >USED CARS</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >MOBILITY</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MEDIA
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  TOYOTA INDIA
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  MORE
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+              <div class="d-flex ps-5">
+                <button
+                  class="btn btn-danger d-none d-xl-block d-xxl-none"
+                  type="submit"
+                >
+                  BUY ONLINE
+                </button>
+              </div>
+            </ul>
+          </div>
+          <div class="mt-2">
+            <i class="ps-4 bi-telephone-fill text-danger"></i>
+          </div>
+          <div class="mt-2 d-lg-none .d-xl-block">
+            <i class="ps-4 bi bi-geo-alt-fill text-danger "></i>
+          </div>
+        </div>
+        
+      </nav>
+    </header>
+    <!-- -----------header end-------------- -->
+
+    <!-- -----------carosel-------------- -->
+
+    <section>
+      <div
+        id="multipleCarousel"
+        class="carousel slide mt-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner carousel">
+          <div class="carousel-item active">
+            <img
+              src="assets/rumion.jpg"
+              class="img-fluid d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/hytime-uch-homepage-banner.jpg"
+              class="img-fluid d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/fortuner-awesome.jpg"
+              class="img-fluid d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/urban-cruiser-taisor-homepage-banner.jpg"
+              class="img-fluidd-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/urban-cruiser-taisor.jpg"
+              class="img-fluid d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/fortuner-legenter.jpg"
+              class="img-fluid d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#multipleCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#multipleCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- -----------carosel end-------------- -->
+
+    <!-- -----------icon-------------- -->
+
+    <section>
+      <div class="container-fluid bg-light">
+        <div class="row ps-5">
+          <div class="col-xl-8">
+            <div class="row">
+              <div class="col-3 p-2">
+                <i class="bi bi-geo-alt text-danger h1"
+                  ><span class="fs-6 d-none d-xl-block d-xxl-none"
+                    ><small>FIND A DEALER</small></span
+                  ></i
+                >
+              </div>
+              <div class="col-3 p-2">
+                <i class="bi bi-car-front text-danger h1"
+                  ><span
+                    class="fs-6 ps-4 icon-name d-none d-xl-block d-xxl-none"
+                    ><small>FEST DRIVE</small></span
+                  ></i
+                >
+              </div>
+              <div class="col-3 p-2">
+                <i class="bi bi-tags text-danger h1"
+                  ><span
+                    class="fs-6 ps-4 icon-name d-none d-xl-block d-xxl-none"
+                    ><small>FPRICE LIST</small></span
+                  ></i
+                >
+              </div>
+              <div class="col-3 p-2">
+                <i class="bi bi-journal-text text-danger h1"
+                  ><span
+                    class="fs-6 ps-4 icon-name d-none d-xl-block d-xxl-none"
+                    ><small>FeBOOK</small></span
+                  ></i
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-4">
+            <div class="row">
+              <div class="col-6 p-2">
+                <i
+                  class="bi bi-map text-danger h1 d-none d-xl-block d-xxl-none"
+                  ><span class="fs-6 ps-4"><small>FBROUCHER</small></span></i
+                >
+              </div>
+              <div class="col-6 d-none d-xl-block d-xxl-none p-2">
+                <i
+                  class="bi bi-arrows-angle-expand text-danger h1 d-none d-xl-block d-xxl-none"
+                  ><span class="fs-6 ps-4"
+                    ><small>FEXCHANGE CAR</small></span
+                  ></i
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- -----------icon end-------------- -->
+
+    <!-- -----------virtual showroom-------------- -->
+
+    <section>
+      <div>
+        <img
+          class="img-fluid"
+          src="assets/virtual-showroom-tayota-1920x807.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- -----------vertual showroom end-------------- -->
+
+    <!-- ----------- cars 1-------------- -->
+    <section>
+      <div>
+        <h2 class="text-center p-3">Discover the Toyota range</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                GLANZA
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                urban cruiser taisor
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                RIMION
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                urban cruiser Hyrider
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                INNOVA CRYSTA
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img class="img-fluid" src="assets/tayota-hycross.webp" alt="" />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                INNOVA HYCROSS
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+          </div>
+        </div>
+        <!-- ----------- cars1 end-------------- -->
+
+        <!-- ----------- cars2 end-------------- -->
+
+        <div class="container">
+          <div class="row">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img class="img-fluid" src="assets/hilux.webp" alt="" />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                hilux
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                Fortuner
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                legender
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                Camry
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img class="img-fluid" src="assets/velfire.jpg" alt="" />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                Velfire
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+            <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2">
+              <img
+                class="img-fluid"
+                src="assets/glanza-2_360x240.webp"
+                alt=""
+              />
+              <h5 class="justify-content-center text-center fs-6 fw-bold">
+                Land cruiser 300
+              </h5>
+              <h6 class="text-secondary">FROM INR 6,86,000</h6>
+            </div>
+          </div>
+        </div>
+        <!-- ----------- cars2 end-------------- -->
+      </div>
+    </section>
+
+    <!-- -----------What's Awesome end-------------- -->
+
+    <section>
+      <h2 class="text-center p-3">What's Awesome</h2>
+
+      <div class="container">
+        <div
+          id="multipleCarouselaa"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner carousel">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/innova-hycross-whats-awesome-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100"
+                    src="assets/lc300-whats-awesome-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/innova-crysta-emi-banner-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/seamless-conversisons-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/become-dealer-multi-with-all-models-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100"
+                    src="assets/seamless-conversisons-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/toyota-environment-400x240.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/happy-customers-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100"
+                    src="assets/become-dealer-multi-with-all-models-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100"
+                    src="assets/innova-hycross-whats-awesome-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#multipleCarouselaa"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#multipleCarouselaa"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- -----------What's Awesome end-------------- -->
+
+    <!-- -----------press realease -------------- -->
+
+    <!-- col-6 col-sm-6 col-md-4 col-lg-3  -->
+
+    <section>
+      <div class="container-fluid bg-light">
+        <div class="row">
+          <div class="col-xl-8">
+            <h4 class="text-bold ps-5 mt-5 p-l">Press Release</h4>
+            <h6 class="ps-5 p-l"><small>Check out latest news</small></h6>
+            <div class="container">
+              <div class="row">
+                <div class="col-2 col-xl-1 ps-5 p-l">
+                  <h1 class="date font-weight-bold">01</h1>
+                  <h5 class="month">May <br />2024</h5>
+                </div>
+
+                <div class="col-10 ol-xl-11 ps-5">
+                  <h6>
+                    Toyota Kirloskar Motor Sells 25,273 units in May 2024,
+                    Records 24% Growth
+                  </h6>
+                  <p class="sub-head-1 lh-1">
+                    <small>
+                      Varanasi, 29th May 2024: The Toyota Mobility Foundation
+                      (TMF) today announced that Varanasi along with two global
+                      cities, Detroit and Venice, have been selected to host
+                      innovation challenges as part of the Toyota Mobility
+                      Foundation’s Sustainable Cit...
+                    </small>
+                  </p>
+                  <hr />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 col-xl-1 ps-5 p-l">
+                  <h1 class="date font-weight-bold">29</h1>
+                  <h5 class="month">May <br />2024</h5>
+                </div>
+
+                <div class="col-10 col-xl-11 ps-5">
+                  <h6>
+                    Toyota Technical Training Institute (TTTI) Students Excel at
+                    <br />
+                    IndiaSkills Competition 2024
+                  </h6>
+                  <p class="sub-head-1 lh-1">
+                    <small>
+                      Bengaluru, 24th May 2024: In a significant step towards
+                      supporting the "Skill India Mission” and “Viksit Bharat
+                      2047,” Toyota Technical Training Institute (TTTI) today
+                      announced the exceptional performance of its students at
+                      the IndiaSkills Competiti...
+                    </small>
+                  </p>
+                  <hr />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 col-xl-1 ps-5 p-l">
+                  <h1 class="date font-weight-bold">24</h1>
+                  <h5 class="month">May <br />2024</h5>
+                </div>
+
+                <div class="col-10 col-xl-11 ps-5">
+                  <h6>
+                    Toyota Technical Training Institute (TTTI) Opens Admissions
+                    for TTTI <br />
+                    & Toyota Kaushalya Programs for 2024-2025
+                  </h6>
+                  <p class="sub-head-1 lh-1">
+                    <small>
+                      Bengaluru, 17th May 2024: In line with a focus on
+                      transforming rural youth into world class competitive
+                      technicians, Toyota Technical Training Institute (TTTI)
+                      today announced the admission process for the year 2024,
+                      for both its TTTI Regular Program...
+                    </small>
+                  </p>
+                  <hr />
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-2 col-xl-1 ps-5 p-l">
+                  <h1 class="date font-weight-bold">06</h1>
+                  <h5 class="month">May <br />2024</h5>
+                </div>
+
+                <div class="col-10 col-xl-11 ps-5">
+                  <h6>
+                    Toyota Kirloskar Motor Introduces Innova Crysta GX+ as a New
+                    <br />
+                    Standard Grade
+                  </h6>
+                  <p class="sub-head-1 lh-1">
+                    <small>
+                      Bangalore, 06th May 2024: Toyota Kirloskar Motor (TKM)
+                      today announced the introduction of new grade, GX+, in the
+                      Innova Crysta lineup. Inspired by the company's focus on
+                      customer centricity, the new grade boasts of enhanced
+                      features thus reflecting ...
+                    </small>
+                  </p>
+                  <hr />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- src="https://www.google.com/search?igu=1" -->
+
+          <div class="col-xl-4">
+            <iframe
+              class="w-100 vh-100 pt-5 d-none d-xl-block d-xxl-none"
+              src="https://www.google.com/search?igu=1"
+              frameborder="0"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----------press release end-------------- -->
+
+    <!-- -----------More from Toyota end-------------- -->
+
+    <section>
+      <h2 class="text-center p-3">More from tayota</h2>
+
+      <div class="container">
+        <div
+          id="multipleCarousel1"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner carousel">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/more-from-toyota-social-400x240.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="w-100"
+                    src="assets/my-dream-my-toyota-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/d27-whats-awesome-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/become-dealer-multi-with-all-models-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100"
+                    src="assets/toyota-environment-400x240.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/happy-customers-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/more-from-toyota-finacial-services-400x240.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/more-from-toyota-social-400x240.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="col-lg-3">
+                  <img
+                    class="d-block w-100 d-none d-xl-block d-xxl-none"
+                    src="assets/delivery-lead-time-547x306.jpg"
+                    alt="First slide"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#multipleCarousel1"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#multipleCarousel1"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- -----------More from Toyota end-------------- -->
+
+    <!-- -----------footer-------------- -->
+    <footer>
+      <div class="container-fluid bg-dark mt-4">
+        <section
+          class="d-flex justify-content-center justify-content-lg-between p-4"
+        >
+          <div class="me-5">
+            <span>
+              <a class="text-secondary ps-3 icon-name" href="">CONTACT </a>
+              <a class="text-secondary ps-3 icon-name vertical-line " href="">SEARCH </a>
+              <a class="text-secondary ps-3 icon-name vertical-line " href="">ANNOUNCEMENT </a>
+              <a class="text-secondary ps-3 icon-name vertical-line " href="">LEGAL NOTICE </a>
+              <a class="text-secondary ps-3 icon-name vertical-line " href="">HELP </a>
+              <a class="text-secondary ps-3 icon-name vertical-line " href=""
+                >SITE MAP
+              </a></span
+            >
+            <hr class="text-light ps-2" />
+          </div>
+        </section>
+
+        <div class="row ps-5">
+          <div class="col-4 text-light text-light">
+            <h6 class="text-uppercase fw-bold text-light foot-head">
+              TOP SECTIONS
+            </h6>
+            <div class="text-secondary lh-1">
+              <p>
+                <a href="#!" class="text-reset">PRICE LIST</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">EBOOK</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">FIND A DEALER</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">TEST DRIVE</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">BROCHURE</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">EXCHANGE</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-4 text-light text-secondary">
+            <h6 class="text-uppercase fw-bold foot-head">QUICK LINKS</h6>
+            <div class="text-secondary lh-1">
+              <p>
+                <a href="#!" class="text-reset">ABOUT US</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">FEEDBACK/QUERIES</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-2 text-light follow-tayota">
+            <h6 class="text-uppercase fw-bold text-light">FOLLOW TOYOTA</h6>
+            <div class="row text-secondary follow-tayota">
+              <i class="col-1 bi bi-twitter-x"></i>
+              <i class="col-1 bi bi-facebook"></i>
+              <i class="col-1 bi bi-youtube"></i>
+              <i class="col-1 bi bi-instagram"></i>
+            </div>
+          </div>
+          <div class="col-lg-2 text-light mt-5 text-secondary">
+            <h2><strong>TAYOTA</strong></h2>
+            <br />
+            <p class="text-secondary">
+              <small
+                >INSTAGRAM © 2000-2024 Toyota Kirloskar Motor. All <br />
+                Rights Reserved.</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+
+    <!-- -----------footer end-------------- -->
+
+    <!--  Bootstrap Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--  Bootstrap Bundle with Popper end -->
+  </body>
+</html>

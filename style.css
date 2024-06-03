@@ -1,0 +1,21 @@
+@media only screen and (max-width: 600px) {
+  .p-l {
+    margin-left: -50px;
+  }
+  .h6 {
+    font-weight: bolder;
+  }
+  .icon-name{
+    font-size: 12px;
+  }
+.foot-head{
+  font-size: 12px;
+}
+}
+.vertical-line {
+  border-left: 1px solid rgba(160, 146, 146, 0.856);
+  height: 5vh;
+}
+a {
+  text-decoration: none;
+}
