@@ -6,10 +6,12 @@
     font-weight: bolder;
   }
   .icon-name{
-    font-size: 12px;
+    font-size: 10px;
+    display: none;
   }
 .foot-head{
   font-size: 12px;
+
 }
 }
 .vertical-line {
