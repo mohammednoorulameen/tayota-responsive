@@ -14,10 +14,23 @@
 
 }
 }
+.nav-link{
+  font-size: 15px;
+  margin-left: 9px;
+}
+.nav-button{
+  font-size: 10px;
+  
+}
 .vertical-line {
   border-left: 1px solid rgba(160, 146, 146, 0.856);
   height: 5vh;
 }
 a {
   text-decoration: none;
+}
+
+
+button-hover:hover{
+  background-color: white;
 }
